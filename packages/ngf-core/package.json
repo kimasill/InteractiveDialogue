@@ -1,20 +1,25 @@
 {
-  "name": "@ngf/core",
-  "version": "0.0.0",
-  "private": true,
+  "name": "@kimasill/ngf-core",
+  "version": "0.1.0",
+  "private": false,
   "type": "module",
   "description": "Narrative Graph Framework — canonical data model (Workspace, Schema, DialogueNode, Choice, Requirement, Outcome).",
-  "main": "./src/index.ts",
-  "types": "./src/index.ts",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "exports": {
     ".": {
-      "types": "./src/index.ts",
-      "default": "./src/index.ts"
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
     }
   },
-  "files": ["src"],
+  "files": ["dist"],
   "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "prepublishOnly": "pnpm run build",
     "typecheck": "tsc --noEmit"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "devDependencies": {
     "typescript": "^5.4.0"

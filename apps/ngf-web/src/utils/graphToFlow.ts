@@ -1,5 +1,5 @@
 import type { Node, Edge } from '@xyflow/react';
-import type { DialogueNode, NarrativeGraph, NodeId } from '@ngf/core';
+import type { DialogueNode, NarrativeGraph, NodeId } from '@kimasill/ngf-core';
 import { computeLayout } from './layout';
 import type { SerializablePlayerState } from './playtest';
 

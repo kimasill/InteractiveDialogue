@@ -1,24 +1,29 @@
 {
-  "name": "@ngf/csv",
-  "version": "0.0.0",
-  "private": true,
+  "name": "@kimasill/ngf-csv",
+  "version": "0.1.0",
+  "private": false,
   "type": "module",
   "description": "Narrative Graph Framework — CSV import/export. Flat row <-> normalized graph projection.",
-  "main": "./src/index.ts",
-  "types": "./src/index.ts",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "exports": {
     ".": {
-      "types": "./src/index.ts",
-      "default": "./src/index.ts"
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
     }
   },
-  "files": ["src"],
+  "files": ["dist"],
   "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "prepublishOnly": "pnpm run build && pnpm run test",
     "typecheck": "tsc --noEmit",
     "test": "vitest run"
   },
   "dependencies": {
-    "@ngf/core": "workspace:*"
+    "@kimasill/ngf-core": "workspace:*"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "devDependencies": {
     "@types/node": "^20.12.0",

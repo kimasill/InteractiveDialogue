@@ -1,4 +1,4 @@
-import type { Outcome, Requirement } from '@ngf/core';
+import type { Outcome, Requirement } from '@kimasill/ngf-core';
 import type {
   RuntimeAdvanceResult,
   RuntimeBundle,

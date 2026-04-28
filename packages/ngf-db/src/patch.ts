@@ -1,4 +1,4 @@
-import type { Choice, DialogueNode, NodeId, ChoiceId } from '@ngf/core';
+import type { Choice, DialogueNode, NodeId, ChoiceId } from '@kimasill/ngf-core';
 
 export type PatchOp =
   | { op: 'set_position'; nodeId: NodeId; x: number; y: number }

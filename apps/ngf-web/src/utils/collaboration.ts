@@ -1,4 +1,4 @@
-import type { Choice, DialogueNode, NarrativeGraph, NodeId } from '@ngf/core';
+import type { Choice, DialogueNode, NarrativeGraph, NodeId } from '@kimasill/ngf-core';
 
 export type CollaborationActor = 'user' | 'ai' | 'system';
 export type CollaborationRole = 'viewer' | 'editor' | 'reviewer' | 'owner';

@@ -1,5 +1,5 @@
 {
-  "name": "@ngf/web",
+  "name": "@kimasill/ngf-web",
   "version": "0.0.0",
   "private": true,
   "type": "module",
@@ -10,9 +10,9 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@ngf/core": "workspace:*",
-    "@ngf/csv": "workspace:*",
-    "@ngf/validate": "workspace:*",
+    "@kimasill/ngf-core": "workspace:*",
+    "@kimasill/ngf-csv": "workspace:*",
+    "@kimasill/ngf-validate": "workspace:*",
     "@xyflow/react": "^12.3.6",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",

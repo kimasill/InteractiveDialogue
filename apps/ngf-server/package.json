@@ -1,5 +1,5 @@
 {
-  "name": "@ngf/server",
+  "name": "@kimasill/ngf-server",
   "version": "0.0.0",
   "private": true,
   "type": "module",
@@ -11,10 +11,10 @@
   },
   "dependencies": {
     "@hono/node-server": "^1.12.0",
-    "@ngf/core": "workspace:*",
-    "@ngf/csv": "workspace:*",
-    "@ngf/db": "workspace:*",
-    "@ngf/validate": "workspace:*",
+    "@kimasill/ngf-core": "workspace:*",
+    "@kimasill/ngf-csv": "workspace:*",
+    "@kimasill/ngf-db": "workspace:*",
+    "@kimasill/ngf-validate": "workspace:*",
     "hono": "^4.4.0"
   },
   "devDependencies": {

@@ -5,7 +5,7 @@ import type {
   Requirement,
   SchemaVersionId,
   WorkspaceId,
-} from '@ngf/core';
+} from '@kimasill/ngf-core';
 
 export const RUNTIME_BUNDLE_FORMAT = 'ngf.runtime.bundle';
 export const RUNTIME_BUNDLE_VERSION = 1;

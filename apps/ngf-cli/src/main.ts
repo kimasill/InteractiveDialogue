@@ -11,9 +11,9 @@
  */
 import { readFileSync, writeFileSync } from 'node:fs';
 
-import { exportCsv, importCsv } from '@ngf/csv';
-import { buildRuntimeBundle, exportNormalizedJson } from '@ngf/runtime';
-import { validate } from '@ngf/validate';
+import { exportCsv, importCsv } from '@kimasill/ngf-csv';
+import { buildRuntimeBundle, exportNormalizedJson } from '@kimasill/ngf-runtime';
+import { validate } from '@kimasill/ngf-validate';
 
 const argv = process.argv.slice(2);
 const cmd = argv[0];

@@ -8,7 +8,7 @@ import {
   type OutcomeType,
   type Requirement,
   type RequirementType,
-} from '@ngf/core';
+} from '@kimasill/ngf-core';
 import { useAppStore } from '../store';
 import { getNodeEntity, type SchemaField } from '../utils/schemaDraft';
 import './Inspector.css';

@@ -1,4 +1,4 @@
-import type { ChoiceId, NodeId } from '@ngf/core';
+import type { ChoiceId, NodeId } from '@kimasill/ngf-core';
 
 export type IssueSeverity = 'error' | 'warning' | 'info';
 

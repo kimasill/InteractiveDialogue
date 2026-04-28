@@ -1,4 +1,4 @@
-import type { DialogueNode, NarrativeGraph, NodeId } from '@ngf/core';
+import type { DialogueNode, NarrativeGraph, NodeId } from '@kimasill/ngf-core';
 import { computeLayout } from './layout';
 
 export interface GraphViewState {

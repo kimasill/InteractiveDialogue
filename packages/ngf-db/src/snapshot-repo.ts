@@ -1,4 +1,4 @@
-import type { NarrativeGraph, WorkspaceId } from '@ngf/core';
+import type { NarrativeGraph, WorkspaceId } from '@kimasill/ngf-core';
 import { getDb } from './db.js';
 
 export interface ImportSnapshot {

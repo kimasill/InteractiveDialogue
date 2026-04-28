@@ -1,6 +1,6 @@
-import { choiceId, parseNodeId, sortGraph } from '@ngf/core';
-import type { Choice, ChoiceId, DialogueNode, NarrativeGraph, NodeId, Outcome } from '@ngf/core';
-import type { ValidationIssue, ValidationReport } from '@ngf/validate';
+import { choiceId, parseNodeId, sortGraph } from '@kimasill/ngf-core';
+import type { Choice, ChoiceId, DialogueNode, NarrativeGraph, NodeId, Outcome } from '@kimasill/ngf-core';
+import type { ValidationIssue, ValidationReport } from '@kimasill/ngf-validate';
 import type { SchemaDraft } from './schemaDraft';
 
 export type CopilotPatchOp =

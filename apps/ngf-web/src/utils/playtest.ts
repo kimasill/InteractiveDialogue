@@ -1,4 +1,4 @@
-import type { Choice, DialogueNode, NarrativeGraph, NodeId, Outcome, PlayerState, Requirement } from '@ngf/core';
+import type { Choice, DialogueNode, NarrativeGraph, NodeId, Outcome, PlayerState, Requirement } from '@kimasill/ngf-core';
 
 export interface SerializablePlayerState {
   worldFlags: Record<string, number>;

@@ -1,6 +1,6 @@
 import { useRef } from 'react';
 import { useReactFlow } from '@xyflow/react';
-import { exportCsv } from '@ngf/csv';
+import { exportCsv } from '@kimasill/ngf-csv';
 import { useAppStore } from '../store';
 import { importCsvFile } from '../utils/csvImport';
 import { downloadTextFile } from '../utils/download';
