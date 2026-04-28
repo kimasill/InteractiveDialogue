@@ -1,6 +1,8 @@
-# Narrative Graph Framework (NGF)
+# InteractiveDialogue (NGF 기반)
 
-게임/스토리 **대화·퀘스트 그래프**를 TypeScript로 모델링하고, **CSV**와 **정규화된 그래프** 사이를 라운드트립하며, 검증·SQLite 저장·웹 편집기·REST API를 제공하는 모노레포입니다.
+`kimasill/InteractiveDialogue`는 Narrative Graph Framework(NGF)를 기반으로 한 **대화 그래프 편집/검증/실행** 모노레포입니다.
+
+- GitHub: `https://github.com/kimasill/InteractiveDialogue`
 
 ## 패키지
 
@@ -61,14 +63,11 @@ MIT — `LICENSE` 파일 참고.
 
 ## GitHub에 푸시하는 방법
 
-로컬에서 이 폴더는 이미 `git init`이 된 경우가 많습니다. 원격만 추가하면 됩니다.
-
-1. [GitHub](https://github.com/new)에서 새 저장소를 만듭니다 (예: `narrative-graph-framework`).
-2. 아래에서 `YOUR_USER`를 본인 계정/조직으로 바꿉니다.
+이 레포는 `https://github.com/kimasill/InteractiveDialogue`로 퍼블리시하는 것을 전제로 합니다.
 
 ```bash
 cd narrative-graph-framework
-git remote add origin https://github.com/YOUR_USER/narrative-graph-framework.git
+git remote add origin https://github.com/kimasill/InteractiveDialogue.git
 git branch -M main
 git push -u origin main
 ```
@@ -76,6 +75,6 @@ git push -u origin main
 SSH를 쓰는 경우:
 
 ```bash
-git remote add origin git@github.com:YOUR_USER/narrative-graph-framework.git
+git remote add origin git@github.com:kimasill/InteractiveDialogue.git
 git push -u origin main
 ```
