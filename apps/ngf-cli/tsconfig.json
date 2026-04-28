@@ -10,10 +10,10 @@
     "outDir": "./dist",
     "baseUrl": ".",
     "paths": {
-      "@kimasill/ngf-core": ["../../packages/ngf-core/src/index.ts"],
-      "@kimasill/ngf-csv": ["../../packages/ngf-csv/src/index.ts"],
-      "@kimasill/ngf-runtime": ["../../packages/ngf-runtime/src/index.ts"],
-      "@kimasill/ngf-validate": ["../../packages/ngf-validate/src/index.ts"]
+      "@kibbel/ngf-core": ["../../packages/ngf-core/src/index.ts"],
+      "@kibbel/ngf-csv": ["../../packages/ngf-csv/src/index.ts"],
+      "@kibbel/ngf-runtime": ["../../packages/ngf-runtime/src/index.ts"],
+      "@kibbel/ngf-validate": ["../../packages/ngf-validate/src/index.ts"]
     },
     "types": ["node"]
   },

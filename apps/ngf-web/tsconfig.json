@@ -11,9 +11,9 @@
     "skipLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@kimasill/ngf-core": ["../../packages/ngf-core/src/index.ts"],
-      "@kimasill/ngf-csv": ["../../packages/ngf-csv/src/index.ts"],
-      "@kimasill/ngf-validate": ["../../packages/ngf-validate/src/index.ts"]
+      "@kibbel/ngf-core": ["../../packages/ngf-core/src/index.ts"],
+      "@kibbel/ngf-csv": ["../../packages/ngf-csv/src/index.ts"],
+      "@kibbel/ngf-validate": ["../../packages/ngf-validate/src/index.ts"]
     }
   },
   "include": ["src/**/*", "vite.config.ts"],

@@ -1,5 +1,5 @@
 import { useMemo, useState } from 'react';
-import type { ValidationIssue } from '@kimasill/ngf-validate';
+import type { ValidationIssue } from '@kibbel/ngf-validate';
 import { useAppStore } from '../store';
 import { buildCopilotContext, describeCopilotOp, explainValidationIssue, suggestSchemaNotes } from '../utils/copilot';
 

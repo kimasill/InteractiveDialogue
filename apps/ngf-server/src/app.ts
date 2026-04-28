@@ -1,14 +1,14 @@
 import { Hono } from 'hono';
 import type { Context } from 'hono';
-import { importCsv, exportCsv } from '@kimasill/ngf-csv';
-import { validate } from '@kimasill/ngf-validate';
+import { importCsv, exportCsv } from '@kibbel/ngf-csv';
+import { validate } from '@kibbel/ngf-validate';
 import {
   listWorkspaces, getWorkspace, createWorkspace, updateWorkspace, deleteWorkspace,
   listSchemaVersions, getSchemaVersion, createSchemaVersion, deleteSchemaVersion,
   listNodes, getNode, upsertNodes, deleteNode, setNodePosition, patchGraph, loadGraph,
   listSnapshots, getSnapshot, saveSnapshot, deleteSnapshot,
-} from '@kimasill/ngf-db';
-import type { PatchOp } from '@kimasill/ngf-db';
+} from '@kibbel/ngf-db';
+import type { PatchOp } from '@kibbel/ngf-db';
 
 const app = new Hono();
 

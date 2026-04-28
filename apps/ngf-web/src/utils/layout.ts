@@ -1,4 +1,4 @@
-import type { DialogueNode } from '@kimasill/ngf-core';
+import type { DialogueNode } from '@kibbel/ngf-core';
 
 const COLUMN_GAP = 340;
 const ROW_GAP = 210;

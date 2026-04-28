@@ -1,6 +1,6 @@
-import { importCsv } from '@kimasill/ngf-csv';
-import type { ImportIssue } from '@kimasill/ngf-csv';
-import type { NarrativeGraph } from '@kimasill/ngf-core';
+import { importCsv } from '@kibbel/ngf-csv';
+import type { ImportIssue } from '@kibbel/ngf-csv';
+import type { NarrativeGraph } from '@kibbel/ngf-core';
 
 export interface CsvImportOutcome {
   graph: NarrativeGraph;

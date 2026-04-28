@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from 'react';
-import { exportCsv, exportRows, importRows, NPC_DIALOGUE_COLUMNS, type NpcDialogueColumn } from '@kimasill/ngf-csv';
-import type { DialogueNode, NarrativeGraph } from '@kimasill/ngf-core';
-import type { ValidationFix, ValidationIssue } from '@kimasill/ngf-validate';
+import { exportCsv, exportRows, importRows, NPC_DIALOGUE_COLUMNS, type NpcDialogueColumn } from '@kibbel/ngf-csv';
+import type { DialogueNode, NarrativeGraph } from '@kibbel/ngf-core';
+import type { ValidationFix, ValidationIssue } from '@kibbel/ngf-validate';
 import { useAppStore } from '../store';
 import { downloadTextFile } from '../utils/download';
 import { CopilotPanel } from './CopilotPanel';

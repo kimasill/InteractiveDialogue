@@ -1,4 +1,4 @@
-import { parseNodeId, type Choice, type DialogueNode, type NarrativeGraph, type Outcome, type Requirement } from '@kimasill/ngf-core';
+import { parseNodeId, type Choice, type DialogueNode, type NarrativeGraph, type Outcome, type Requirement } from '@kibbel/ngf-core';
 
 import { NPC_DIALOGUE_COLUMNS, NULL_NODE_INDEX, type NpcDialogueColumn } from './columns.js';
 import { serializeCsv } from './serialize.js';

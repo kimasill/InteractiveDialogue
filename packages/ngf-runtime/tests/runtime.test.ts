@@ -2,8 +2,8 @@ import { readFileSync } from 'node:fs';
 import { dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { describe, expect, it } from 'vitest';
-import type { NarrativeGraph } from '@kimasill/ngf-core';
-import { importCsv } from '@kimasill/ngf-csv';
+import type { NarrativeGraph } from '@kibbel/ngf-core';
+import { importCsv } from '@kibbel/ngf-csv';
 import {
   advanceRuntimeChoice,
   applyRuntimeOutcomes,
@@ -56,7 +56,7 @@ function graphFixture(): NarrativeGraph {
   };
 }
 
-describe('@kimasill/ngf-runtime', () => {
+describe('@kibbel/ngf-runtime', () => {
   it('exports normalized JSON without editor-only position/ui state', () => {
     const graph = graphFixture();
     graph.nodes[0]!.position = { x: 10, y: 20 };

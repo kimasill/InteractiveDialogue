@@ -13,7 +13,7 @@ import {
   ensureNode,
   nodeId,
   sortGraph,
-} from '@kimasill/ngf-core';
+} from '@kibbel/ngf-core';
 
 import { NULL_NODE_INDEX, type NpcDialogueColumn } from './columns.js';
 import { parseCsv, rowsToObjects, type RowMap } from './parse.js';

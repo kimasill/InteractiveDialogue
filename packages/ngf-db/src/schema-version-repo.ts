@@ -1,4 +1,4 @@
-import type { SchemaVersionId, WorkspaceId } from '@kimasill/ngf-core';
+import type { SchemaVersionId, WorkspaceId } from '@kibbel/ngf-core';
 import { getDb } from './db.js';
 
 export interface SchemaVersion {

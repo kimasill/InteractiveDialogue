@@ -1,5 +1,5 @@
 {
-  "name": "@kimasill/ngf-cli",
+  "name": "@kibbel/ngf-cli",
   "version": "0.0.0",
   "private": true,
   "type": "module",
@@ -12,10 +12,10 @@
     "demo": "node --experimental-strip-types --no-warnings bin/ngf.mjs"
   },
   "dependencies": {
-    "@kimasill/ngf-core": "workspace:*",
-    "@kimasill/ngf-csv": "workspace:*",
-    "@kimasill/ngf-runtime": "workspace:*",
-    "@kimasill/ngf-validate": "workspace:*"
+    "@kibbel/ngf-core": "workspace:*",
+    "@kibbel/ngf-csv": "workspace:*",
+    "@kibbel/ngf-runtime": "workspace:*",
+    "@kibbel/ngf-validate": "workspace:*"
   },
   "devDependencies": {
     "@types/node": "^20.12.0",

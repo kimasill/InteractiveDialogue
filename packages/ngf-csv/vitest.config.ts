@@ -6,7 +6,7 @@ export default defineConfig({
   },
   resolve: {
     alias: {
-      '@kimasill/ngf-core': new URL('../ngf-core/src/index.ts', import.meta.url).pathname,
+      '@kibbel/ngf-core': new URL('../ngf-core/src/index.ts', import.meta.url).pathname,
     },
   },
 });

@@ -1,5 +1,5 @@
 {
-  "name": "@kimasill/ngf-csv",
+  "name": "@kibbel/ngf-csv",
   "version": "0.1.0",
   "private": false,
   "type": "module",
@@ -20,7 +20,7 @@
     "test": "vitest run"
   },
   "dependencies": {
-    "@kimasill/ngf-core": "workspace:*"
+    "@kibbel/ngf-core": "workspace:*"
   },
   "publishConfig": {
     "access": "public"

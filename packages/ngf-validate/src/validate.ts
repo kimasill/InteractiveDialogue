@@ -5,7 +5,7 @@ import {
   OUTCOME_TYPES,
   REQUIREMENT_TYPES,
   indexNodes,
-} from '@kimasill/ngf-core';
+} from '@kibbel/ngf-core';
 
 import {
   type ValidationIssue,

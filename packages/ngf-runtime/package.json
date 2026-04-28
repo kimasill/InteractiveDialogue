@@ -1,5 +1,5 @@
 {
-  "name": "@kimasill/ngf-runtime",
+  "name": "@kibbel/ngf-runtime",
   "version": "0.1.0",
   "private": false,
   "type": "module",
@@ -20,13 +20,13 @@
     "test": "vitest run"
   },
   "dependencies": {
-    "@kimasill/ngf-core": "workspace:*"
+    "@kibbel/ngf-core": "workspace:*"
   },
   "publishConfig": {
     "access": "public"
   },
   "devDependencies": {
-    "@kimasill/ngf-csv": "workspace:*",
+    "@kibbel/ngf-csv": "workspace:*",
     "@types/node": "^20.12.0",
     "typescript": "^5.4.0",
     "vitest": "^1.6.0"

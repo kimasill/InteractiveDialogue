@@ -10,8 +10,8 @@
     "outDir": "./dist",
     "baseUrl": ".",
     "paths": {
-      "@kimasill/ngf-core": ["../ngf-core/src/index.ts"],
-      "@kimasill/ngf-csv": ["../ngf-csv/src/index.ts"]
+      "@kibbel/ngf-core": ["../ngf-core/src/index.ts"],
+      "@kibbel/ngf-csv": ["../ngf-csv/src/index.ts"]
     },
     "types": ["node"]
   },

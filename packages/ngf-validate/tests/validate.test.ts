@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import type { NarrativeGraph } from '@kimasill/ngf-core';
+import type { NarrativeGraph } from '@kibbel/ngf-core';
 import { validate } from '../src/index.js';
 
 function nodeFixture(id: string, opts: Partial<{ choices: any[]; auto: string | undefined }> = {}) {

@@ -1,5 +1,5 @@
 {
-  "name": "@kimasill/ngf-db",
+  "name": "@kibbel/ngf-db",
   "version": "0.1.0",
   "private": false,
   "type": "module",
@@ -19,7 +19,7 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@kimasill/ngf-core": "workspace:*"
+    "@kibbel/ngf-core": "workspace:*"
   },
   "publishConfig": {
     "access": "public"

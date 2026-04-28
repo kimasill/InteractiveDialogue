@@ -6,9 +6,9 @@ export default defineConfig({
   plugins: [react()],
   resolve: {
     alias: {
-      '@kimasill/ngf-core': resolve(__dirname, '../../packages/ngf-core/src/index.ts'),
-      '@kimasill/ngf-csv': resolve(__dirname, '../../packages/ngf-csv/src/index.ts'),
-      '@kimasill/ngf-validate': resolve(__dirname, '../../packages/ngf-validate/src/index.ts'),
+      '@kibbel/ngf-core': resolve(__dirname, '../../packages/ngf-core/src/index.ts'),
+      '@kibbel/ngf-csv': resolve(__dirname, '../../packages/ngf-csv/src/index.ts'),
+      '@kibbel/ngf-validate': resolve(__dirname, '../../packages/ngf-validate/src/index.ts'),
     },
   },
   server: {

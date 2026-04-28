@@ -1,5 +1,5 @@
-import { sortGraph } from '@kimasill/ngf-core';
-import type { ChoiceId, NarrativeGraph, NodeId } from '@kimasill/ngf-core';
+import { sortGraph } from '@kibbel/ngf-core';
+import type { ChoiceId, NarrativeGraph, NodeId } from '@kibbel/ngf-core';
 import {
   RUNTIME_BUNDLE_FORMAT,
   RUNTIME_BUNDLE_VERSION,

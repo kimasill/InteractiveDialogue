@@ -1,4 +1,4 @@
-import type { DialogueNode, NarrativeGraph, NodeId, WorkspaceId } from '@kimasill/ngf-core';
+import type { DialogueNode, NarrativeGraph, NodeId, WorkspaceId } from '@kibbel/ngf-core';
 import { getDb, txn } from './db.js';
 import { applyPatch, type PatchOp, type PatchResult } from './patch.js';
 

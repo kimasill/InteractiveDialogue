@@ -1,4 +1,4 @@
-import type { Workspace, WorkspaceId } from '@kimasill/ngf-core';
+import type { Workspace, WorkspaceId } from '@kibbel/ngf-core';
 import { getDb } from './db.js';
 
 interface WorkspaceRow {

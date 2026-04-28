@@ -10,16 +10,16 @@ importers:
 
   apps/ngf-cli:
     dependencies:
-      '@kimasill/ngf-core':
+      '@kibbel/ngf-core':
         specifier: workspace:*
         version: link:../../packages/ngf-core
-      '@kimasill/ngf-csv':
+      '@kibbel/ngf-csv':
         specifier: workspace:*
         version: link:../../packages/ngf-csv
-      '@kimasill/ngf-runtime':
+      '@kibbel/ngf-runtime':
         specifier: workspace:*
         version: link:../../packages/ngf-runtime
-      '@kimasill/ngf-validate':
+      '@kibbel/ngf-validate':
         specifier: workspace:*
         version: link:../../packages/ngf-validate
     devDependencies:
@@ -35,16 +35,16 @@ importers:
       '@hono/node-server':
         specifier: ^1.12.0
         version: 1.19.14(hono@4.12.15)
-      '@kimasill/ngf-core':
+      '@kibbel/ngf-core':
         specifier: workspace:*
         version: link:../../packages/ngf-core
-      '@kimasill/ngf-csv':
+      '@kibbel/ngf-csv':
         specifier: workspace:*
         version: link:../../packages/ngf-csv
-      '@kimasill/ngf-db':
+      '@kibbel/ngf-db':
         specifier: workspace:*
         version: link:../../packages/ngf-db
-      '@kimasill/ngf-validate':
+      '@kibbel/ngf-validate':
         specifier: workspace:*
         version: link:../../packages/ngf-validate
       hono:
@@ -63,13 +63,13 @@ importers:
 
   apps/ngf-web:
     dependencies:
-      '@kimasill/ngf-core':
+      '@kibbel/ngf-core':
         specifier: workspace:*
         version: link:../../packages/ngf-core
-      '@kimasill/ngf-csv':
+      '@kibbel/ngf-csv':
         specifier: workspace:*
         version: link:../../packages/ngf-csv
-      '@kimasill/ngf-validate':
+      '@kibbel/ngf-validate':
         specifier: workspace:*
         version: link:../../packages/ngf-validate
       '@xyflow/react':
@@ -109,7 +109,7 @@ importers:
 
   packages/ngf-csv:
     dependencies:
-      '@kimasill/ngf-core':
+      '@kibbel/ngf-core':
         specifier: workspace:*
         version: link:../ngf-core
     devDependencies:
@@ -125,7 +125,7 @@ importers:
 
   packages/ngf-db:
     dependencies:
-      '@kimasill/ngf-core':
+      '@kibbel/ngf-core':
         specifier: workspace:*
         version: link:../ngf-core
     devDependencies:
@@ -138,11 +138,11 @@ importers:
 
   packages/ngf-runtime:
     dependencies:
-      '@kimasill/ngf-core':
+      '@kibbel/ngf-core':
         specifier: workspace:*
         version: link:../ngf-core
     devDependencies:
-      '@kimasill/ngf-csv':
+      '@kibbel/ngf-csv':
         specifier: workspace:*
         version: link:../ngf-csv
       '@types/node':
@@ -157,7 +157,7 @@ importers:
 
   packages/ngf-validate:
     dependencies:
-      '@kimasill/ngf-core':
+      '@kibbel/ngf-core':
         specifier: workspace:*
         version: link:../ngf-core
     devDependencies:

@@ -1,8 +1,8 @@
 import { create } from 'zustand';
-import { validate } from '@kimasill/ngf-validate';
-import { choiceId, parseNodeId, sortGraph } from '@kimasill/ngf-core';
-import type { Choice, ChoiceId, DialogueNode, NarrativeGraph, NodeId, Outcome, Requirement } from '@kimasill/ngf-core';
-import type { ValidationFix, ValidationReport } from '@kimasill/ngf-validate';
+import { validate } from '@kibbel/ngf-validate';
+import { choiceId, parseNodeId, sortGraph } from '@kibbel/ngf-core';
+import type { Choice, ChoiceId, DialogueNode, NarrativeGraph, NodeId, Outcome, Requirement } from '@kibbel/ngf-core';
+import type { ValidationFix, ValidationReport } from '@kibbel/ngf-validate';
 import { computeLayout } from './utils/layout';
 import {
   applyOutcomes,
