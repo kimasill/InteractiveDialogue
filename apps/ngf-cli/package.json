@@ -1,0 +1,24 @@
+{
+  "name": "@ngf/cli",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Narrative Graph Framework — CLI for CSV round-trip, validation, and inspection.",
+  "bin": {
+    "ngf": "./bin/ngf.mjs"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "demo": "node --experimental-strip-types --no-warnings bin/ngf.mjs"
+  },
+  "dependencies": {
+    "@ngf/core": "workspace:*",
+    "@ngf/csv": "workspace:*",
+    "@ngf/runtime": "workspace:*",
+    "@ngf/validate": "workspace:*"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.0",
+    "typescript": "^5.4.0"
+  }
+}

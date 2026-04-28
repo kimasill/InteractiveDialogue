@@ -1,0 +1,95 @@
+.toolbar {
+  height: 44px;
+  background: #0f0f18;
+  border-bottom: 1px solid #2a2a3e;
+  display: flex;
+  align-items: center;
+  padding: 0 12px;
+  gap: 8px;
+  flex-shrink: 0;
+  font-family: 'Segoe UI', system-ui, sans-serif;
+}
+
+.toolbar-brand {
+  font-weight: 800;
+  font-size: 15px;
+  color: #6366f1;
+  letter-spacing: 1px;
+  margin-right: 8px;
+}
+
+.toolbar-btn {
+  padding: 4px 12px;
+  height: 28px;
+  border-radius: 5px;
+  border: 1px solid #3b3b52;
+  background: #1e1e2e;
+  color: #e2e8f0;
+  font-size: 12px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.15s, border-color 0.15s;
+}
+
+.toolbar-btn:hover {
+  background: #2a2a3e;
+  border-color: #6366f1;
+}
+
+.toolbar-btn:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+.toolbar-btn--toggle {
+  padding: 4px 9px;
+}
+
+.toolbar-btn--active {
+  border-color: #0ea5e9;
+  background: rgba(14, 165, 233, 0.18);
+  color: #e0f2fe;
+}
+
+.toolbar-btn--ghost {
+  background: transparent;
+  border-color: transparent;
+  color: #64748b;
+}
+
+.toolbar-btn--ghost:hover {
+  background: #1e1e2e;
+  border-color: #3b3b52;
+  color: #e2e8f0;
+}
+
+.toolbar-spacer {
+  flex: 1;
+}
+
+.toolbar-stats {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.toolbar-stat {
+  font-size: 11px;
+  color: #475569;
+  font-weight: 500;
+}
+
+.toolbar-stat--muted { color: #64748b; }
+.toolbar-stat--error { color: #f87171; }
+.toolbar-stat--warn  { color: #fbbf24; }
+.toolbar-stat--ok    { color: #34d399; }
+
+.toolbar-error {
+  max-width: 280px;
+  color: #f87171;
+  font-size: 11px;
+  font-weight: 600;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

@@ -1,0 +1,28 @@
+{
+  "name": "@ngf/csv",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Narrative Graph Framework — CSV import/export. Flat row <-> normalized graph projection.",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.ts",
+      "default": "./src/index.ts"
+    }
+  },
+  "files": ["src"],
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@ngf/core": "workspace:*"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.0",
+    "typescript": "^5.4.0",
+    "vitest": "^1.6.0"
+  }
+}

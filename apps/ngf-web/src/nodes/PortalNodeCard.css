@@ -1,0 +1,30 @@
+.portal-card {
+  width: 180px;
+  border: 1px dashed #f59e0b;
+  border-radius: 8px;
+  background: rgba(120, 53, 15, 0.28);
+  color: #fde68a;
+  padding: 10px;
+  font-family: 'Segoe UI', system-ui, sans-serif;
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.28);
+}
+
+.portal-card-title {
+  font-size: 10px;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #fbbf24;
+  margin-bottom: 5px;
+}
+
+.portal-card-target {
+  font: 11px 'Cascadia Code', 'Consolas', monospace;
+  color: #fff7ed;
+  word-break: break-all;
+}
+
+.portal-card-source {
+  margin-top: 5px;
+  color: #fcd34d;
+  font-size: 10px;
+}

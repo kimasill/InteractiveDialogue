@@ -1,0 +1,14 @@
+{
+  "name": "narrative-graph-framework",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Narrative Graph Framework (NGF) — dialogue graph model, CSV round-trip, validation, persistence, web UI, REST API.",
+  "license": "MIT",
+  "scripts": {
+    "typecheck": "pnpm -r typecheck",
+    "test": "pnpm -C packages/ngf-csv test && pnpm -C packages/ngf-validate test && pnpm -C packages/ngf-runtime test"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
